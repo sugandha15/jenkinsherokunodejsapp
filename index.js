@@ -37,7 +37,7 @@ app.get('/login',(req,res)=>{
 })
 
 app.get('/',(req,res)=>{
-res.send('Welcome To Express App')
+res.send('Welcome To Heroku Sugandha Express App')
 })
 
 app.get('/index',(req,res)=>{
