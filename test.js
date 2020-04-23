@@ -6,7 +6,7 @@ const test = require('tape');
 const env = Object.assign({}, process.env, {PORT: 5000});
 const child = spawn('node', ['index.js'], {env});
 
-test('responds to requests', (t) => {
+test('responds to requests', (t) => {git 
   t.plan(4);
 
   // Wait until the server is ready
